@@ -1,0 +1,88 @@
+body{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.column1 div:nth-child(odd), .column2 div:nth-child(even), .column3 div:nth-child(odd), .column4 div:nth-child(even), .column5 div:nth-child(odd), .column6 div:nth-child(even), .column7 div:nth-child(odd), .column8 div:nth-child(even){
+    height: 50px;
+    width: 50px;
+    background-color: white;
+}
+
+.column1 div:nth-child(even), .column2 div:nth-child(odd), .column3 div:nth-child(even), .column4 div:nth-child(odd), .column5 div:nth-child(even), .column6 div:nth-child(odd), .column7 div:nth-child(even), .column8 div:nth-child(odd){
+    height: 50px;
+    width: 50px;
+    background-color: rgb(101,66,34);
+}
+
+.column1, .column2{
+    display: flex;
+    flex-direction: column;
+}
+
+.columns{
+    display: flex;
+    flex-direction: row;
+}
+
+.column1 .square1-1{
+    background-image: url('../ND_4/Figures/rook-b.svg');
+}
+.column8 .square1-8{
+    background-image: url('../ND_4/Figures/rook-b.svg');
+}
+.column2 .square1-2{
+    background-image: url('../ND_4/Figures/knight-b.svg');
+}
+.column7 .square1-7{
+    background-image: url('../ND_4/Figures/knight-b.svg');
+}
+.column7 .square1-7{
+    background-image: url('../ND_4/Figures/knight-b.svg');
+}
+.column3 .square1-3{
+    background-image: url('../ND_4/Figures/bishop-b.svg');
+}
+.column6 .square1-6{
+    background-image: url('../ND_4/Figures/bishop-b.svg');
+}
+.column4 .square1-4{
+    background-image: url('../ND_4/Figures/queen-b.svg');
+}
+.column5 .square1-5{
+    background-image: url('../ND_4/Figures/king-b.svg');
+}
+.column1 .square2-1, .column2 .square2-2, .column3 .square2-3, .column4 .square2-4, .column5 .square2-5, .column6 .square2-6, .column7 .square2-7, .column8 .square2-8 {
+    background-image: url('../ND_4/Figures/pawn-b.svg');
+}
+.column1 .square8-1{
+    background-image: url('../ND_4/Figures/rook-w.svg');
+}
+.column8 .square8-8{
+    background-image: url('../ND_4/Figures/rook-w.svg');
+}
+.column2 .square8-2{
+    background-image: url('../ND_4/Figures/knight-w.svg');
+}
+.column7 .square8-7{
+    background-image: url('../ND_4/Figures/knight-w.svg');
+}
+.column3 .square8-3{
+    background-image: url('../ND_4/Figures/bishop-w.svg');
+}
+.column6 .square8-6{
+    background-image: url('../ND_4/Figures/bishop-w.svg');
+}
+.column4 .square8-4{
+    background-image: url('../ND_4/Figures/queen-w.svg');
+}
+.column5 .square8-5{
+    background-image: url('../ND_4/Figures/king-w.svg');
+
+}
+.column1 .square7-1, .column2 .square7-2, .column3 .square7-3, .column4 .square7-4, .column5 .square7-5, .column6 .square7-6, .column7 .square7-7, .column8 .square7-8 {
+    background-image: url('../ND_4/Figures/pawn-w.svg');
+}
+

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="form.css">
+
+</head>
+
+<body>
+    <h3>Using CSS to style an HTML Form</h3>
+    <div>
+        <form>
+            <label for=fname>First Name <label>
+             <input type="text" id="fname" name="fname" placeholder="Your name..">
+             <label for=lname>Last Name <label>
+                <input type="text" id="lname" name="lname" placeholder="Your last name..">
+                <label for="country">Country</label>
+            <select id="country" name="country" required>
+                <option value="" disabled selected hidden>Choose country</option>
+                <option value="Australia">Australlia</option>
+                <option value="Lithuania">Lithuania</option>
+                <option value="Latvia">Latvia</option>
+            </select>
+            <input type="submit" name="submit" value="Pateikti">
+
+        </form>
+    </div>
+</body>
+
+</html>

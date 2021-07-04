@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body{
+            background-color: #fafafa;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .mygtukas {
+            color: rgba(0,0,0,.87);
+            background-color: transparent;
+            border: 1px solid rgba(0,0,0,.12);
+            border-radius: 4px;
+            padding: 0px 15px 0px 15px ;
+            line-height: 34px;
+            color:pink;
+            background-color: hotpink;
+            
+        }
+.mygtukas:hover{
+    background-color: black;
+    color:hotpink;
+    cursor:pointer;
+    transition: all 1s;
+}
+
+.mygtukas.primary{
+color: blue;
+}
+.mygtukas.primary:hover{
+    background-color: burlywood;
+    border-radius: 50%;
+    transition: all 1s;
+}
+    </style>
+</head>
+
+<body>
+    <div>
+    <button class="mygtukas">Spausk mane</button>
+    </div>
+    <div>
+    <button class="mygtukas primary">Spausk mane melynas</button>
+    </div>
+</body>
+
+</html>

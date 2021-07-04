@@ -1,0 +1,31 @@
+.outlined {
+    border: 1px solid rgba(0, 0, 0, 0.23);
+}
+
+.outlined:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.outlined-primary {
+    color: #1976d2;
+    border: 1px solid rgba(25, 118, 210, 0.5);
+}
+
+.outlined-primary:hover {
+    background-color: rgba(10, 46, 82, 0.05);
+}
+
+.outlined-secondary {
+    color: rgb(220, 0, 78);
+    border: 1px solid rgba(220, 0, 78, 0.5);
+}
+
+.outlined-secondary:hover {
+    background-color: rgba(220, 0, 78, 0.05);
+}
+
+.outlined:disabled {
+    color: rgba(0, 0, 0, 0.26);
+    cursor: default;
+    pointer-events: none;
+}

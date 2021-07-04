@@ -1,0 +1,36 @@
+img{
+    width: 700px;
+    height: 400px;
+}
+div{
+    font-family: Roboto;
+    height: 100vh;
+    text-align: center;
+}
+.pirma{
+    background-color: cadetblue;
+}
+
+.antra{
+    background-color: coral;
+}
+
+.trecia{
+    background-color: cornflowerblue;
+}
+.ketvirta{
+    background-color: darkkhaki;
+}
+img{
+    padding-top: 100px;
+}
+@font-face {
+    font-family: Roboto;
+    src: url('Roboto-Regular.ttf');
+}
+@font-face {
+    font-family: Roboto;
+    src: url('Roboto-Bold.ttf');
+    font-size: bold;
+}
+

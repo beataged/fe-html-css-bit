@@ -1,0 +1,41 @@
+body{
+   margin: 0px 0px;
+   border:0px;
+   padding: 0px 0px; 
+}
+.klase{
+background-color:rgb(153, 217, 234);
+text-align: center;
+padding: 10px;
+border-bottom: 5px solid black;
+font-family: Sans;
+
+}
+div > h1{
+    text-transform:uppercase;
+    font-weight: normal;
+    margin: 0;
+ }
+div > h3{
+    font-weight: normal;
+    margin: 0;
+    padding-top: 10px;
+} 
+  img{
+     display: block;
+     width: 90%;
+     margin-right: auto;
+     margin-left: auto;
+     margin-top: 100px;  
+ } 
+
+ /* img{
+     display:flex;
+     align-items: center;
+     justify-items: center;
+ } */
+
+ @font-face {
+    font-family: Sans;
+    src: url('OpenSans-Regular.ttf');
+}

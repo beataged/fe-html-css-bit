@@ -1,0 +1,41 @@
+img{
+    width: 500px;
+    height: 300px;
+}
+div{
+    font-family: Roboto;
+    height: 50vh;
+    text-align: center;
+}
+div:hover{
+    height: 100vh;
+    transition:0.5s;
+}
+div:hover img{
+    width: 700px;
+    height: 400px;
+}
+.pirma{
+    background-color: cadetblue;
+}
+
+.antra{
+    background-color: coral;
+}
+
+.trecia{
+    background-color: cornflowerblue;
+}
+.ketvirta{
+    background-color: darkkhaki;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url('Roboto-Regular.ttf');
+}
+@font-face {
+    font-family: Roboto;
+    src: url('Roboto-Bold.ttf');
+    font-size: bold;
+}
