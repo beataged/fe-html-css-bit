@@ -23,13 +23,13 @@
 <body>
     <nav id="navbar">
         <div id="menu-options" class="menu-options">
-            <a href="#specials">Specials</a>
-            <a href="#about">About</a>
-            <a href="#menu">Menu</a>
-            <a href="#chef">Chef</a>
-            <a href="#contact">Contact</a>
+            <a href="#specials" onclick="menuClose()">Specials</a>
+            <a href="#about" onclick="menuClose()">About</a>
+            <a href="#menu" onclick="menuClose()">Menu</a>
+            <a href="#chef" onclick="menuClose()">Chef</a>
+            <a href="#contact" onclick="menuClose()">Contact</a>
         </div>
-        <div class="menu-container" onclick="menuToggle(this)">
+        <div id="hamburger" class="menu-container" onclick="menuToggle()">
             <div class="bar1"></div>
             <div class="bar2"></div>
             <div class="bar3"></div>
@@ -413,11 +413,18 @@
     </div>
 
     <script>
-        function menuToggle(menuContainer) {
-            console.log(menuContainer);
-            let menuOptions = document.getElementById('menu-options');
+        let menuOptions = document.getElementById('menu-options');
+        let hamburger = document.getElementById('hamburger');
+
+        function menuToggle() {
             menuOptions.classList.toggle('change');
-            menuContainer.classList.toggle('change');
+            hamburger.classList.toggle('change');
+        }
+
+        function menuClose() {
+            menuOptions.classList.remove('change');
+            hamburger.classList.remove('change');
+
         }
     </script>
 

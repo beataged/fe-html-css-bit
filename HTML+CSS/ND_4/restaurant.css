@@ -39,9 +39,7 @@ h2 {
     left: 0;
 }
 
-#navbar .menu-options.change {
-    display: flex;
-}
+
 
 #navbar a {
     background-color: transparent;
@@ -454,12 +452,19 @@ header p {
         flex-direction: column-reverse;
         align-items: flex-end;
     }
-
-    #navbar .menu-options{
-        display: none;
+    #navbar .menu-options {
+        display: flex;
         flex-direction: column;
         align-items: center;
         width: 100%;
+        border-top: 1px solid #eee;
+        transition: height 1s;
+        height: 0px;
+        overflow: hidden;
+    }
+    #navbar .menu-options.change {
+        display: flex;
+        height: 175px;
         border-top: 1px solid #eee;
     }
     #navbar .menu-container {
