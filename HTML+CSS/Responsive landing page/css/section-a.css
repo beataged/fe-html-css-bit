@@ -16,3 +16,17 @@ flex-direction: row;
 #section-a .content-text p:last-child{
     padding-left: 20px;
 }
+
+
+@media screen and (max-width: 768px){
+    #section-a .content-text{
+        flex-direction: column;
+    }
+    #section-a .content-text p{
+        margin: 10px 0;
+    }
+
+    #section-a .content-text:first-child, #section-a .content-text:last-child{
+        padding: 0;
+    }
+}

@@ -26,3 +26,15 @@
 #section-b .card .card-content p{
     padding: 1rem 0;
 }
+
+@media screen and (max-width: 768px) {
+    #section-b{
+        flex-direction: column;
+    }
+    #section-b .card{
+        width: 100%;
+        max-width: none;
+        margin-bottom: 20px;
+    }
+
+}
