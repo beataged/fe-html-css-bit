@@ -9,12 +9,13 @@
 body {
   background: #293f50;
   color: #888;
-  font: 300 16px/22px 'Lato', Arial, sans-serif;
+  font: 300 16px/22px "Lato", Arial, sans-serif;
 }
 
 .container {
   max-width: 960px;
   margin: 0 auto;
+  padding: 0 20px;
 }
 
 h1, h2, h3, h4 {

@@ -3,7 +3,7 @@ section {
   padding: 66px 0 44px 0;
 }
 
-.container {
+section .container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -16,15 +16,15 @@ section {
           justify-content: space-between;
 }
 
-.container .card {
+section .container .card {
   width: 30%;
 }
 
-.container .card a:hover h3 {
+section .container .card a:hover h3 {
   color: #a9b2b9;
 }
 
-.container .card a img {
+section .container .card a img {
   border-radius: 5px;
   margin-bottom: 22px;
   width: 100%;

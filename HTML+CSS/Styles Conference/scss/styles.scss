@@ -1,44 +1,44 @@
 @import 'theming.scss';
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font: inherit;
 }
 
-body{
-    background: #293f50;
-    color:#888;
-    font: 300 16px/22px 'Lato', Arial, sans-serif;
+body {
+    background: $body-background;
+    color: #888;
+    font: 300 16px/22px "Lato", Arial, sans-serif;
 }
 
-.container{
+.container {
     max-width: 960px;
     margin: 0 auto;
+    padding: 0 20px;
 }
 
-h1, h2, h3, h4{
-    color: #648880;
+h1, h2, h3, h4 {
+    color: $primary;
 }
 
-h3{
+h3 {
     font-size: 21px;
 }
 
-h1, h3, h4, h5, p{
+h1, h3, h4, h5, p {
     margin-bottom: 22px;
-
 }
 
-h5{
+h5 {
     color: #a9b2b9;
     font-size: 14px;
     font-weight: 400;
     text-transform: uppercase;
 }
 
-a{
-    color: #648880;
+a {
+    color: $primary;
     text-decoration: none;
-
 }
